@@ -27,7 +27,7 @@ namespace Company.Function
             if(rating!=null){
                 return new OkObjectResult(rating);
             }
-            string responseMessage = "";
+            string responseMessage = "404 item is not found";
 
             return new OkObjectResult(responseMessage);
         }
